@@ -460,11 +460,4 @@ header {
     transform: scale(1.2);
     opacity: .5;
 }
-.dev-icons {
-  font-size: 3rem;
-}
-
-.dev-icons .list-inline-item i:hover {
-  color: #17a2b8;
-}
 
