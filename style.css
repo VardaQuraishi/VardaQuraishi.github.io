@@ -482,12 +482,29 @@ header {
   display: flex;
   justify-content: center; /* Center image horizontally */
   align-items: center; /* Center image vertically */
+  margin-top: 1em; /* Add margin between content and image on smaller screens */
 }
 
 .resume-image img {
   max-width: 100%; /* Set the maximum width of the image to 100% of the parent container */
   height: auto; /* Maintain aspect ratio */
 }
+
+@media screen and (max-width: 768px) {
+  .resume-item {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .resume-content {
+    margin-right: 0; /* Remove margin on smaller screens */
+    margin-bottom: 1em; /* Add margin between stacked items */
+  }
+
+  .resume-image {
+    margin-top: 0; /* Remove margin between content and image on smaller screens */
+  }
+}
+
 
 
 
