@@ -146,15 +146,16 @@ header {
   margin: 0;
   padding: 0;
 }
-.nav__item {
+.nav__item a {
   /* Default color for list items when not clicked */
-  background-color: var(--clr-light);
+  color: var(--clr-light);
 }
 
-.nav__item.active {
+.nav__item a.active {
   /* Color for list items when clicked */
-  background-color: var(--clr-accent);
+  color: var(--clr-accent);
 }
+
 
 .nav-toggle {
   padding: .5em;
