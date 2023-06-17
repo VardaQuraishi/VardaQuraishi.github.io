@@ -146,13 +146,17 @@
         </footer>
 
         <script src="js/index.js"></script>
-  <script>
-    const navToggle = document.getElementById('navToggle');
-    const navMenu = document.getElementById('navMenu');
+	<script>
+  	// Get the necessary elements
+  	const navToggle = document.querySelector('.nav-toggle');
+  	const nav = document.querySelector('.nav');
 
-    navToggle.addEventListener('click', function() {
-      navMenu.classList.toggle('show');
-    });
-  </script>
+  	// Add a click event listener to the navToggle element
+ 	 navToggle.addEventListener('click', function() {
+    	// Toggle the 'show' class on the nav element
+   	 nav.classList.toggle('show');
+  });
+</script>
+
 </body>
 </html>
