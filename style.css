@@ -466,24 +466,14 @@ header {
     transform: scale(1.2);
     opacity: .5;
 }
-.resume-image {
-  max-width: 100%;
-}
-
 .resume-item {
   display: flex;
-  flex-direction: column;
+  align-items: center;
 }
 
-@media (min-width: 800px) {
-  .resume-item {
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  .resume-item > div:first-child {
-    margin-right: 2em;
-  }
+.resume-content {
+  margin-right: 2em;
 }
+
 
 
