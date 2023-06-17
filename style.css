@@ -490,7 +490,7 @@ header {
   height: auto; /* Maintain aspect ratio */
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .resume-item {
     flex-direction: column; /* Stack items vertically on smaller screens */
   }
@@ -504,6 +504,7 @@ header {
     margin-top: 0; /* Remove margin between content and image on smaller screens */
   }
 }
+
 
 
 
