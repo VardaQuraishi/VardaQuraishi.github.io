@@ -13,10 +13,10 @@
         <header>
             <div class="logo">
                 <img src="assets/1-removebg-preview.png" alt="logo">
-                <button class="nav-toggle" aria-label="toggle navigation" >
-                    <span class= "hamburger"></span>
+		<button id="navToggle" class="nav-toggle" aria-label="toggle navigation">                    
+			<span class= "hamburger"></span>
                 </button>
-                <nav class="nav">
+                <nav id="navMenu" class="nav">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
                         <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
@@ -35,7 +35,7 @@
             <h1 class="section__title section__title--intro">
                 Greetings, I am <strong>Varda Quraishi</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">Developer|Researcher|Prompt Engineer</p>
+            <p class="section__subtitle section__subtitle--intro">Developer | Researcher | Prompt Engineer</p>
             <img src="assets/me-profile.jpg" alt="profile image" class="intro__img">
         </section>
 
@@ -148,5 +148,14 @@
         </footer>
 
         <script src="js/index.js"></script>
+	    <script>
+  const navToggle = document.getElementById('navToggle');
+  const navMenu = document.getElementById('navMenu');
+
+  navToggle.addEventListener('click', function() {
+    navMenu.classList.toggle('show');
+  });
+</script>
+
     </body>
 </html>
