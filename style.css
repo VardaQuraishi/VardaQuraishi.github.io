@@ -481,11 +481,10 @@ header {
   flex: 1; /* Allow image to take remaining space */
   display: flex;
   justify-content: center; /* Center image horizontally */
-  align-items: center; /* Center image vertically */
 }
 
 .resume-image img {
-  max-width: 100%; /* Set the maximum width of the image to 100% of the parent container */
+  max-width: 100%;
   height: auto; /* Maintain aspect ratio */
 }
 
