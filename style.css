@@ -473,6 +473,7 @@ header {
 .resume-item {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 @media (min-width: 800px) {
@@ -484,6 +485,8 @@ header {
   .resume-item > div:first-child {
     margin-right: 2em;
   }
+.resume-content {
+  margin-right: 2em;
 }
 
 
